@@ -140,7 +140,7 @@ h3 {
 
 .producto {
     background-color: var(--primario0scuro);
-    padding: 1rem;
+    margin: 1rem 0;
 }
 
 .producto__nombre {
@@ -194,6 +194,10 @@ h3 {
 .nosotros {
     display: grid;
     grid-template-rows: repeat(2, auto);
+}
+
+.nosotros__contenido {
+    margin: 1rem;
 }
 
 @media (min-width: 768px) {
